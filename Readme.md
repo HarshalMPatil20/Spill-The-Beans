@@ -314,3 +314,11 @@ Security Filter → DispatcherServlet → AOP (@PreAuthorize)
 ```java
 JAVA → CORE → BOOT → MVC → AOP → JPA → TX → SECURITY → PERF → TEST → PROD
 ```
+
+&nbsp;
+# 📚 Resources
+- [Spring Framework Documentation](https://docs.spring.io/spring-framework/docs/current/reference/html/)
+- [Spring Boot Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/)
+- [Baeldung Spring Tutorials](https://www.baeldung.com/spring-tutorials)
+- [Spring in Action (Book)](https://www.manning.com/books/spring-in-action-fifth-edition)
+- [Spring Boot in Action (Book)](https://www.manning.com/books/spring-boot-in-action)
