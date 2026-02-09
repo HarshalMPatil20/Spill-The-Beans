@@ -1,6 +1,8 @@
 
 # 🔁 Circular Dependency in Spring
 
+![Circular Dependency](/src/stare-intimidate.gif)
+
 ### 🧠 What is a circular dependency?
 
 

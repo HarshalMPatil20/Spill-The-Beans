@@ -16,6 +16,8 @@ Initialization = **when Spring creates a bean object**.
 
 > Bean is created **at application startup**.
 
+![Eager](/src/spongebob-squarepants-dance.gif)
+
 ### Example
 
 ```java
@@ -48,6 +50,8 @@ class OrderService {}
 ### What it means
 
 > Bean is created **only when it is first used**.
+
+![Lazy](/src/giphy.gif)
 
 ### Example
 

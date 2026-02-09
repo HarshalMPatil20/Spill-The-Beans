@@ -16,6 +16,8 @@ Both are used **when multiple beans of the same type exist** and Spring doesn’
 
 > “If no one specifies anything, use **this** bean.”
 
+![Primary](/src/i-have-no-choice-no-option.gif)
+
 ### Example
 
 ```java
@@ -47,6 +49,8 @@ PaymentService paymentService; // UpiPaymentService injected
 
 > “I want **THIS specific bean**, no guessing.”
 
+![Qualifier](/src/what-choice-keanu-reeves.gif)
+
 ### Example
 
 ```java
@@ -73,6 +77,8 @@ PaymentService paymentService; // CardPaymentService injected
 
 ## ⚔️ What if BOTH are used?
 
+![both](/src/choices-sesamo.gif)
+
 ```java
 @Service
 @Primary
@@ -82,17 +88,18 @@ class UpiPaymentService implements PaymentService {}
 class CardPaymentService implements PaymentService {}
 ```
 
+
 ```java
 @Autowired
 @Qualifier("cardPaymentService")
 PaymentService paymentService;
 ```
 
-✅ **Result:** `@Qualifier` wins
+### ✅ **Result:** `@Qualifier` wins
 
 ### Rule (VERY IMPORTANT)
 
-> **`@Qualifier` > `@Primary`**
+> ### **`@Qualifier` > `@Primary`**
 
 * * *
 

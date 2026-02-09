@@ -380,10 +380,10 @@ class ExampleBean {
 1.  BeanDefinition created
 2.  Bean instantiated
 3.  Dependencies injected
-4.  @PostConstruct called
+4.  `@PostConstruct` called
 5.  Bean ready
 6.  App runs
-7.  @PreDestroy called on shutdown
+7.  `@PreDestroy` called on shutdown
 
 📌 AOP & transactions hook into this lifecycle.
 
@@ -469,15 +469,15 @@ PaymentService service;
 Spring resolves:
 
 1.  By type
-2.  [@Qualifier]()
-3.  [@Primary]()
+2.  [@Qualifier](https://github.com/HarshalMPatil20/Spill-The-Beans/blob/main/LEVEL-1-Spring-Core/Qualifier%20VS%20Primary.md#-qualifier--explicit-choice)
+3.  [@Primary](https://github.com/HarshalMPatil20/Spill-The-Beans/blob/main/LEVEL-1-Spring-Core/Qualifier%20VS%20Primary.md#-primary--default-choice)
 4.  Bean name
 
 Ambiguity → startup failure.
 
 * * *
 
-## 1️⃣2️⃣ [Circular Dependencies]()
+## 1️⃣2️⃣ [Circular Dependencies](https://github.com/HarshalMPatil20/Spill-The-Beans/blob/main/LEVEL-1-Spring-Core/Circular-dependencies.md#-circular-dependency-in-spring)
 
 
 ```java
@@ -492,7 +492,7 @@ B → A
 
 * * *
 
-## 1️⃣3️⃣ [Lazy vs Eager Initialization]()
+## 1️⃣3️⃣ [Lazy vs Eager Initialization](https://github.com/HarshalMPatil20/Spill-The-Beans/blob/main/LEVEL-1-Spring-Core/Lazy-vs-eager-initialization.md#-lazy-vs-eager-initialization-spring)
 
 
 ```java
@@ -512,7 +512,7 @@ class HeavyBean {}
 ### Examples: 
 [`BeanPostProcessor`,
 `BeanFactoryPostProcessor`,
-`BeanDefinitionRegistryPostProcessor` ]()
+`BeanDefinitionRegistryPostProcessor`](https://github.com/HarshalMPatil20/Spill-The-Beans/blob/main/LEVEL-1-Spring-Core/BeanPostProcessors.md#%EF%B8%8F-beandefinitionregistrypostprocessor)
 
 Spring uses this to:
 *   Add behavior (AOP, transactions)
