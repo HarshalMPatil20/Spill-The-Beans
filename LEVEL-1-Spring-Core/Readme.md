@@ -25,7 +25,7 @@ Spring Core =
 
 Keep this mental image in mind:
 
-```
+```java 
 ApplicationContext
  ├── Bean Definitions (metadata)
  ├── Dependency Graph
@@ -293,10 +293,10 @@ class OrderService {
 
 WHY:
 
-*   Mandatory dependencies
-*   Fail fast
-*   Immutable
-*   Testable
+- Dependency is mandatory
+- Object is always in valid state
+- Helps catch circular dependencies early
+- Easy to test
 
 * * *
 
@@ -332,10 +332,11 @@ Problems:
 *   Hidden dependencies
 *   Runtime failures
 *   Hard testing
+*   Allows circular dependency silently
 
 * * *
 
-## 6️⃣ ApplicationContext (CORE BRAIN)
+## 6️⃣ `ApplicationContext` (CORE BRAIN)
 
 
 ### WHAT IT DOES
