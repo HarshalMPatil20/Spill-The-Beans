@@ -21,7 +21,7 @@ designed for developers who want to go beyond tutorials and actually
 
 # 🛣️ Roadmap
 
-## 🟢 LEVEL 0: Prerequisites (Foundation)
+## 🟢 [LEVEL 0: Prerequisites (Foundation)](https://github.com/HarshalMPatil20/Spill-The-Beans/tree/3b327242aa41335ce95da33c5868197a75e3bbbf/LEVEL-0-Prerequisites)
 
 ### Must Know
 

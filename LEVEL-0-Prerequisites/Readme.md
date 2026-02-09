@@ -91,15 +91,12 @@ Without interfaces:
 Abstraction hides complexity.
 
 #### Controller:
-
 - Should not care how data is stored
 
 #### Service :
-
 - Should not care how HTTP works
 
 #### Repository :
-
 - Should not care about business rules
 
 #### In Spring Architecture
