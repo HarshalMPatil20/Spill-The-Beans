@@ -336,7 +336,7 @@ Problems:
 
 * * *
 
-## 6️⃣ `ApplicationContext` (CORE BRAIN)
+## 6️⃣ [ApplicationContext](https://github.com/HarshalMPatil20/Spill-The-Beans/blob/main/LEVEL-1-Spring-Core/ApplicationContext.md#-applicationcontext-spring) (CORE BRAIN)
 
 
 ### WHAT IT DOES
@@ -390,7 +390,7 @@ class ExampleBean {
 
 * * *
 
-## 8️⃣ Bean Scopes (WITH EXAMPLES)
+## 8️⃣ [Bean Scopes]() (WITH EXAMPLES)
 
 
 ### Singleton (Default)
